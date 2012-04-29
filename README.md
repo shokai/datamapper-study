@@ -28,8 +28,14 @@ Use
 
 write
 
-    % ruby bin/post_comment.rb test
+    % ruby -Ku bin/post_comment.rb test
 
 read
 
-    % ruby bin/show_comments.rb
+    % ruby -Ku bin/show_comments.rb
+
+
+Console
+-------
+
+    % ruby -Ku bin/console.rb
