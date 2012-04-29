@@ -1,0 +1,7 @@
+
+db :
+  adapter : mysql
+  host : localhost
+  database : study
+  username : yourname
+  password : xxxxxxxx
