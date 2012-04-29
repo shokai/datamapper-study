@@ -15,6 +15,7 @@ rescue => e
   exit 1
 end
 
-Comment.all.each do |c|
-  puts c
+total = Comment.count
+Comment.get_latests(5).each do |c|
+  puts "(#{c.id}/#{total}) #{c}"
 end

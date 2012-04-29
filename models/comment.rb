@@ -9,4 +9,8 @@ class Comment
   def to_s
     "[#{name}] #{body} - #{created_at}"
   end
+
+  def self.get_latests(num=10)
+    self.all(:order => [:id.desc], :limit => num)
+  end
 end

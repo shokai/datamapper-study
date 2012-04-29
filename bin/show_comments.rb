@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require File.dirname(__FILE__)+'/../bootstrap'
 
-Comment.all.each do |c|
-  puts c
+total = Comment.count
+Comment.get_latests(20).each do |c|
+  puts "(#{c.id}/#{total}) #{c}"
 end
