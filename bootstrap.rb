@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'bundler/setup'
-require 'data_mapper'
+Bundler.require
 require 'yaml'
 
 begin
