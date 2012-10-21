@@ -21,7 +21,7 @@ Setup
     % mysql -u your_name -p
     mysql> create database study;
 
-    % ruby bin/migrate.rb
+    % ruby bin/db_migrate.rb
 
 
 Use
