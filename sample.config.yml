@@ -1,7 +1,12 @@
-
+## MySQL
 db :
   adapter : mysql
   host : localhost
   database : study
   username : yourname
   password : xxxxxxxx
+
+## SQLite
+#db :
+#  adapter : sqlite
+#  database : study.sqlite

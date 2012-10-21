@@ -4,6 +4,7 @@ DataMapper+MySQL study
 * Mac OSX Lion
 * Ruby 1.8.7+
 * MySQL 5.1+
+* SQLite3 3.7+
 
 
 Install Dependencies
